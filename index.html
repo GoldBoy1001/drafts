@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240117132454">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap&_v=20240117132454" rel="stylesheet">
+	<title>Главная</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+	<section class="header__body body">
+		<!-- <nav class="body__nav nav">
+			<ul class="nav__list">
+				<li><a class="nav__link" href="#">Покупателям</a></li>
+				<li><a class="nav__link" href="#">Поставщикам</a></li>
+				<li><a class="nav__link" href="#">Частые вопросы</a></li>
+			</ul>
+		</nav> -->
+		<!-- <div class="body__lang lang">
+			<img class="lang__flag" src="img/Flag Ru.svg" alt="flag"></img>
+			<p class="lang__text">Русский</p>
+			<div class="lang__rub">₽</div>
+		</div> -->
+		<div class="body__burger">
+			<picture><source srcset="img/burger.webp" type="image/webp"><img src="img/burger.jpg" alt="Burger"></picture>
+		</div>
+		<a href="index.html" class="body__logo">
+			<img src="img/Group 46.svg" alt="logo">
+		</a>
+		<div class="body__search">
+			<input id="input" type="text">
+		</div>
+		<div class="body__user user">
+			<div class="user__entrance">
+				<img src="img/user.svg" alt="entrance" class="user__entrance-img">
+				<p>Войти</p>
+			</div>
+			<div class="user__favourites">
+				<a href="favourites.html"><img src="img/like-heart.svg" alt="favourites" class="user__img">
+					<p>Избранное</p>
+				</a>
+				<span class="favourites-num"></span>
+			</div>
+			<a href="basket.html" class="user__card">
+				<img src="img/shop-cart.svg" alt="card" class="user__img">
+				<p>Корзина</p>
+				<span class="cart-num"></span>
+			</a>
+		</div>
+	</section>
+</header>
+	   <main class="main">
+			<div class="main__content">
+				<section class="main__slider">
+					<section class="menu-br menu-br-hidden">
+						<div class="menu-br__body">
+							<header class="menu-br__header">Все категории</header>
+							<ul class="menu-br__list">
+								<li class="menu-br__item item-comp">Компьютеры и оргтехника</li>
+								<li class="menu-br__item item-el">Электроника</li>
+								<li class="menu-br__item item-tex">Бытовая техника</li>
+								<li class="menu-br__item item-woman">Одежда для женщин</li>
+								<li class="menu-br__item item-man">Одежда для мужчин</li>
+								<li class="menu-br__item item-child">Все для детей</li>
+								<li class="menu-br__item item-avto">Автотовары</li>
+								<li class="menu-br__item item-zoj">Красота и здоровье</li>
+								<li class="menu-br__item item-sport">Спорт и развлечения</li>
+							</ul>
+							
+						</div>
+						
+					</section>
+					<div class="swiper my-swiper">
+						<div class="swiper-wrapper">
+						  <picture><source srcset="img/baner1.webp" type="image/webp"><img src="img/baner1.jpg" alt="baner" class="swiper-slide"></picture>
+						  <picture><source srcset="img/baner2.webp" type="image/webp"><img src="img/baner2.jpg" alt="baner" class="swiper-slide"></picture>
+						  <picture><source srcset="img/baner3.webp" type="image/webp"><img src="img/baner3.jpg" alt="baner" class="swiper-slide"></picture>
+						</div>
+						<div class="swiper-button-next"></div>
+    					<div class="swiper-button-prev"></div>
+ 					</div>
+					 <div class="swiper swiper-right">
+						<div class="swiper-wrapper swiper-wrapper-right">
+						  <picture><source srcset="img/baner2.webp" type="image/webp"><img src="img/baner2.jpg" alt="baner" class="swiper-slide swiper-slide-right"></picture>
+						  <picture><source srcset="img/baner3.webp" type="image/webp"><img src="img/baner3.jpg" alt="baner" class="swiper-slide swiper-slide-right"></picture>
+						  <picture><source srcset="img/baner1.webp" type="image/webp"><img src="img/baner1.jpg" alt="baner" class="swiper-slide swiper-slide-right"></picture>
+						</div>
+ 					</div>
+				</section>
+				<section class="main__catalog">
+					<div class="catalog">
+						<p class="catalog__title">Каталог</p>
+						<div class="catalog__body">
+							<div class="catalog__cards">
+							</div>
+							<span class="catalog__btn">Все товары</span>
+						</div>						
+					</div>
+				</section>
+				<section class="main__assortment">
+					<div class="assortment">
+						<h3 class="assortment__title">Широкий ассортимент и высокое качество</h3>
+						<p class="assortment__text collapsed">Интернет-магазин PlaceMik – это доступные цены,
+							широкий, регулярно обновляемый ассортимент. В онлайн-каталоге PlaceMik
+							представлено около 35 000 ведущих брендов женской, мужской и детской одежды и обуви.
+							Покупателям предлагается электроника, книжная продукция, детские товары. 
+							В интернет-магазине можно приобрести продукцию для дома, продукты питания, товары 
+							для красоты, ювелирные изделия, игрушки. Для удобства пользования онлайн-каталог 
+							поделен на разделы, все товары можно сортировать по ряду критериев: цена, материал 
+							изготовления, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur 
+							provident pariatur praesentium odit quaerat deserunt saepe quisquam fugit nisi beatae 
+							possimus, veniam officia quidem ut. Consectetur neque vero dolores nam iusto iure asperiores 
+							sint repellat delectus dignissimos. Alias accusamus animi voluptas reprehenderit possimus 
+							inventore magni, voluptatum delectus. Modi, natus. Ipsa!  </p>
+						<span class="read-more-btn">Читать полностью</span>
+					</div>
+				</section>
+			</div>
+	   </main>
+	   <footer class="footer">
+	<div class="footer__body">
+		<div class="column column1">
+			<ul class="column__list">
+				<li class="column__title">Покупателям</li>
+				<li><a href="#" class="column__link">Как это работает</a></li>
+				<li><a href="#" class="column__link">Защита покупателя</a></li>
+				<li><a href="#" class="column__link">Условия оплаты</a></li>
+				<li><a href="#" class="column__link">Условия использования</a></li>
+				<li><a href="#" class="column__link">Регистрация аккаунта</a></li>
+			</ul>
+			
+		</div>
+		<div class="column column2">
+			<ul class="column__list">
+				<li class="column__title">Поставщикам</li>
+				<li><a href="#" class="column__link">Как стать продавцом </a></li>
+				<li><a href="#" class="column__link">Правила участия</a></li>
+				<li><a href="#" class="column__link">Личный кабинет продавца</a></li>
+			</ul>
+			
+		</div> 
+		<div class="column column3">
+			<ul class="column__list">
+				<li class="column__title">О компании</li>
+				<li><a href="#" class="column__link">О PlaceMik   </a></li>
+				<li><a href="#" class="column__link">Новости </a></li>
+				<li><a href="#" class="column__link">Часто задаваемые вопросы</a></li>
+				<li><a href="#" class="column__link">Служба поддержки</a></li>
+				<li><a href="#" class="column__link">Сообщить о нарушении авторских прав</a></li>
+			</ul>
+			
+		</div>
+		<div class="column__socials">
+			<div class="socials">
+				<label for="subs" class="socials__title">Хотите быть в курсе последних новостей и акций? </label>
+				<div class="socials__subscribe">
+					<input id="subs" type="email">
+				<span class="socials__subscribe-btn"><span class="socials__subscribe-btn-text">Подписаться</span></span>	
+				</div>
+				<div class="socials__social">
+					<div class="social">
+						<p class="social__title">Мы в соцсетях</p>
+						<div class="social__links">
+							<a href="https://vk.com/" target="_blank"><img src="img/vk-brands.svg" alt="vk"></a>
+							<a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.svg" alt="instagram"></a>
+							<a href="https://www.facebook.com/" target="_blank"><img src="img/facebook-f-brands.svg" alt="facebook "></a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+	</div>
+	<div class="footer__footer">
+		<a href="#"><img src="img/Лого.gif" alt="logo"></a>
+		<span class="footer__footer">© PlaceMik.ru, 2021</span>
+	</div>
+</footer>
+	</div>
+	<script src="js/app.min.js?_v=20240117132454"></script>
+</body>
+
+</html>
