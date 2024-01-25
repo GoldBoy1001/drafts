@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+@@include('html/head.html',{
+"title":"Корзина"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('html/header.html',{})
+	   <main class="main">
+			<div class="main__content">
+				<section class="section-cart">
+					<header class="section-cart__header">
+						 <div class="container">
+							  <h1 class="title-1">Корзина товаров</h1>
+						 </div>
+					</header>
+					<div class="section-cart__body">
+						 <div class="container">
+							  <section class="cart">
+									<header class="cart-header">
+										 <div class="cart-header__title">наименование</div>
+										 <div class="cart-header__count">количество</div>
+										 <div class="cart-header__cost">стоимость</div>
+									</header>
+									<section class="cart-products">
+									 </section>
+									<!-- <section class="product">
+										 <div class="product__img"><img src="@img/macbook.jpg" alt="Apple MacBook Air 13"></div>
+										 <div class="product__title">Apple MacBook Air 13</div>
+										 <div class="product__count">
+											  <div class="count">
+													<div class="count__box">
+														 <input type="number" class="count__input" min="1" max="100" value="1">
+													</div>
+													<div class="count__controls">
+														 <button type="button" class="count__up">
+															  <img src="@img/icon-up.svg" alt="Increase">
+														 </button>
+														 <button type="button" class="count__down">
+															  <img src="@img/icon-down.svg" alt="Decrease">
+														 </button>
+													</div>
+											  </div>
+										 </div>
+										 <div class="product__price">110 000 руб.</div>
+										 <div class="product__controls">
+											  <button type="button">
+													<img src="@img/cross.svg" alt="Delete">
+											  </button>
+										 </div>
+									</section>
+		 
+									<section class="product">
+										 <div class="product__img"><img src="@img/apple-watch.jpg" alt="Apple watch"></div>
+										 <div class="product__title">Apple watch</div>
+										 <div class="product__count">
+											  <div class="count">
+													<div class="count__box">
+														 <input type="number" class="count__input" min="1" max="100" value="1">
+													</div>
+													<div class="count__controls">
+														 <button type="button" class="count__up">
+															  <img src="@img/icon-up.svg" alt="Increase">
+														 </button>
+														 <button type="button" class="count__down">
+															  <img src="@img/icon-down.svg" alt="Decrease">
+														 </button>
+													</div>
+											  </div>
+										 </div>
+										 <div class="product__price">29 000 руб.</div>
+										 <div class="product__controls">
+											  <button type="button">
+													<img src="@img/cross.svg" alt="Delete">
+											  </button>
+										 </div>
+									</section>
+		 
+									<section class="product">
+										 <div class="product__img"><img src="@img/mac-pro.jpg" alt="Mac Pro"></div>
+										 <div class="product__title">Mac Pro</div>
+										 <div class="product__count">
+											  <div class="count">
+													<div class="count__box">
+														 <input type="number" class="count__input" min="1" max="100" value="1">
+													</div>
+													<div class="count__controls">
+														 <button type="button" class="count__up">
+															  <img src="@img/icon-up.svg" alt="Increase">
+														 </button>
+														 <button type="button" class="count__down">
+															  <img src="@img/icon-down.svg" alt="Decrease">
+														 </button>
+													</div>
+											  </div>
+										 </div>
+										 <div class="product__price">190 000 руб.</div>
+										 <div class="product__controls">
+											  <button type="button">
+													<img src="@img/cross.svg" alt="Delete">
+											  </button>
+										 </div>
+									</section> -->
+		 
+		 
+									<footer class="cart-footer">
+										 <div class="cart-footer__count">3 единицы</div>
+										 <div class="cart-footer__price">329 000 $</div>
+									</footer>
+							  </section>
+		 
+						 </div>
+					</div>
+			  </section>
+			</div>
+	   </main>
+	   @@include('html/footer.html',{})
+	</div>
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>

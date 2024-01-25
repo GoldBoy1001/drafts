@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+@@include('html/head.html',{
+"title":"Избранное"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('html/header.html',{})
+	   <main class="main">
+			<div class="main__content">
+				<section class="section-favourites">
+					<header class="section-favourites__header">
+						 <div class="container">
+							  <h1 class="title-1 title-2">Избранное</h1>
+						 </div>
+					</header>
+					<div class="section-favourites__body">
+						 <div class="container">
+							  <section class="favourites">
+								<header class="favourites-cart-header">
+									<div class="favourites-cart-header__title">наименование</div>
+									<div class="favourites-cart-header__count">описание</div>
+									<div class="favourites-cart-header__cost">стоимость</div>
+							  </header>
+							  <section class="favorites-cart-products">
+							  </section>
+							  <!-- <section class="favourites-product">
+							  	 <div class="favourites-product__img"><img src="@img/macbook.jpg" alt="Apple MacBook Air 13"></div>
+							  	 <div class="favourites-product__title">Apple MacBook Air 13</div>
+							  	 <div class="favourites-product__count">
+							  		Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+							  		Mollitia blanditiis placeat impedit doloremque ad molestias 
+							  		maxime cupiditate. Enim, deserunt minima?
+							  	 </div>
+							  	 <div class="favourites-product__price">110 000 руб.</div>
+							  	 <div class="favourites-product__controls">
+							  		  <button type="favourites-button">
+							  				<img src="@img/like-heart.svg" alt="Delete">
+							  		  </button>
+							  		  <button type="favourites-button">
+							  			<img src="@img/shop-cart.svg" alt="Delete">
+							  		  </button>
+							  	 </div>
+							  </section> -->
+							  </section>
+		 
+						 </div>
+					</div>
+			  </section>
+			</div>
+	   </main>
+	   @@include('html/footer.html',{})
+	</div>
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>

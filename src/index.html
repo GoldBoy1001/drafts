@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+@@include('html/head.html',{
+"title":"Главная"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('html/header.html',{})
+	   <main class="main">
+			<div class="main__content">
+				<section class="main__slider">
+					<section class="menu-br menu-br-hidden">
+						<div class="menu-br__body">
+							<header class="menu-br__header">Все категории</header>
+							<ul class="menu-br__list">
+								<li class="menu-br__item item-comp">Компьютеры и оргтехника</li>
+								<li class="menu-br__item item-el">Электроника</li>
+								<li class="menu-br__item item-tex">Бытовая техника</li>
+								<li class="menu-br__item item-woman">Одежда для женщин</li>
+								<li class="menu-br__item item-man">Одежда для мужчин</li>
+								<li class="menu-br__item item-child">Все для детей</li>
+								<li class="menu-br__item item-avto">Автотовары</li>
+								<li class="menu-br__item item-zoj">Красота и здоровье</li>
+								<li class="menu-br__item item-sport">Спорт и развлечения</li>
+							</ul>							
+						</div>
+					</section>
+					<div class="swiper my-swiper">
+						<div class="swiper-wrapper">
+						  <img src="@img/baner1.jpg" alt="baner" class="swiper-slide">
+						  <img src="@img/baner2.jpg" alt="baner" class="swiper-slide">
+						  <img src="@img/baner3.jpg" alt="baner" class="swiper-slide">
+						</div>
+						<div class="swiper-button-next"></div>
+    					<div class="swiper-button-prev"></div>
+ 					</div>
+					 <div class="swiper swiper-right">
+						<div class="swiper-wrapper swiper-wrapper-right">
+						  <img src="@img/baner2.jpg" alt="baner" class="swiper-slide swiper-slide-right">
+						  <img src="@img/baner3.jpg" alt="baner" class="swiper-slide swiper-slide-right">
+						  <img src="@img/baner1.jpg" alt="baner" class="swiper-slide swiper-slide-right">
+						</div>
+ 					</div>
+				</section>
+				<section class="main__catalog">
+					<div class="catalog">
+						<p class="catalog__title">Каталог</p>
+						<div class="catalog__body">
+							<div class="catalog__cards">
+							</div>
+							<span class="catalog__btn">Все товары</span>
+						</div>						
+					</div>
+				</section>
+				<section class="main__assortment">
+					<div class="assortment">
+						<h3 class="assortment__title">Широкий ассортимент и высокое качество</h3>
+						<p class="assortment__text collapsed">Интернет-магазин PlaceMik – это доступные цены,
+							широкий, регулярно обновляемый ассортимент. В онлайн-каталоге PlaceMik
+							представлено около 35 000 ведущих брендов женской, мужской и детской одежды и обуви.
+							Покупателям предлагается электроника, книжная продукция, детские товары. 
+							В интернет-магазине можно приобрести продукцию для дома, продукты питания, товары 
+							для красоты, ювелирные изделия, игрушки. Для удобства пользования онлайн-каталог 
+							поделен на разделы, все товары можно сортировать по ряду критериев: цена, материал 
+							изготовления, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur 
+							provident pariatur praesentium odit quaerat deserunt saepe quisquam fugit nisi beatae 
+							possimus, veniam officia quidem ut. Consectetur neque vero dolores nam iusto iure asperiores 
+							sint repellat delectus dignissimos. Alias accusamus animi voluptas reprehenderit possimus 
+							inventore magni, voluptatum delectus. Modi, natus. Ipsa!  </p>
+						<span class="read-more-btn">Читать полностью</span>
+					</div>
+				</section>
+			</div>
+	   </main>
+	   @@include('html/footer.html',{})
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
