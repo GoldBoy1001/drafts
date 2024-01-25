@@ -488,6 +488,11 @@ body {
   max-height: 350px;
 }
 
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+
 .swiper-button-next,
 .swiper-button-prev {
   background: var(--ui-liner-button-100, linear-gradient(97deg, #F64D4D -57.09%, #4D5EF6 101.17%));
